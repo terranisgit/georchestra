@@ -336,7 +336,7 @@
               <dockerDirectory>${project.basedir}/src/docker</dockerDirectory>
               <resources>
                 <resource>
-                  <targetPath>/var/lib/jetty/webapps</targetPath>
+                  <targetPath>/usr/local/tomcat/webapps</targetPath>
                   <directory>${project.build.directory}</directory>
                   <include>geowebcache.war</include>
                 </resource>
